@@ -9,9 +9,7 @@ import ex01.model.OrderOption;
 import ex01.model.ProductOption;
 import ex01.model.Product;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class App1 {
     public static void main(String[] args) {
@@ -71,6 +69,12 @@ public class App1 {
         OrderDetailDTO orderDetailDTO = new OrderDetailDTO(or1Options);
         String r3 = gson.toJson(orderDetailDTO);
         System.out.println(r3);
+
+        Map<String, Integer> he = new HashMap<>();
+        he.put("key1", 1);
+        he.put("key2", 2);
+
+
     }
 
 
