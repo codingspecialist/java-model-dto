@@ -1,4 +1,4 @@
-package model;
+package ex01.model;
 
 public class ProductOption {
     private int id;
